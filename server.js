@@ -11,7 +11,7 @@ const cors = require('cors');
 const app = express();
 
 const corsOptions = {
-  origin: ["https://utopiaclient.herokuapp.com","http://utopiaclient.herokuapp.com/"],
+  origin: ["https://utopiaclient.herokuapp.com","http://utopiaclient.herokuapp.com"],
   credentials: true,
   // 'allowedHeaders': ['sessionId', 'Content-Type'],
   // 'exposedHeaders': ['sessionId'],
